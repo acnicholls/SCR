@@ -1,23 +1,22 @@
-Microsoft Visual Studio Solution File, Format Version 8.00
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SourceControlRemover", "SourceControlRemover.csproj", "{285992EA-02C9-4E76-9EC5-6FE5F618E9DA}"
-	ProjectSection(ProjectDependencies) = postProject
-	EndProjectSection
 EndProject
 Global
-	GlobalSection(SolutionConfiguration) = preSolution
-		Debug = Debug
-		Release = Release
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Description = Compresses source code into single file for backup purposes.
 	EndGlobalSection
-	GlobalSection(ProjectDependencies) = postSolution
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{285992EA-02C9-4E76-9EC5-6FE5F618E9DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{285992EA-02C9-4E76-9EC5-6FE5F618E9DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{285992EA-02C9-4E76-9EC5-6FE5F618E9DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{285992EA-02C9-4E76-9EC5-6FE5F618E9DA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
-	GlobalSection(ProjectConfiguration) = postSolution
-		{285992EA-02C9-4E76-9EC5-6FE5F618E9DA}.Debug.ActiveCfg = Debug|.NET
-		{285992EA-02C9-4E76-9EC5-6FE5F618E9DA}.Debug.Build.0 = Debug|.NET
-		{285992EA-02C9-4E76-9EC5-6FE5F618E9DA}.Release.ActiveCfg = Release|.NET
-		{285992EA-02C9-4E76-9EC5-6FE5F618E9DA}.Release.Build.0 = Release|.NET
-	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-	EndGlobalSection
-	GlobalSection(ExtensibilityAddIns) = postSolution
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal
